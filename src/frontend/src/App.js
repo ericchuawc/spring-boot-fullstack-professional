@@ -236,7 +236,7 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 By Amigoscode
                 <Divider>
-                    <a ref="noopener noreferrer" target="_blank" href="https://www.google.com">
+                    <a rel="noreferrer" target="_blank" href="https://www.google.com">
                         Click here to google
                     </a>
                 </Divider>
