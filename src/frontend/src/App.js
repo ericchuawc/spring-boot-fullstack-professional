@@ -12,7 +12,8 @@ import {
     Tag,
     Avatar,
     Radio,
-    Popconfirm
+    Popconfirm,
+    Divider
 } from 'antd';
 import {
     DesktopOutlined,
@@ -232,7 +233,14 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                By Amigoscode
+                <Divider>
+                    <a target="_blank" href="https://www.google.com">
+                        Click here to google
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
